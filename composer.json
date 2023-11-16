@@ -1,0 +1,23 @@
+{
+    "name": "phamquocduy/shop-thoi-trang",
+    "description": "Shop bán hàng - Duy Media - Năm 2023 - 2024",
+    "authors": [
+        {
+            "name": "Phạm Quốc Duy",
+            "email": "duybuntv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
